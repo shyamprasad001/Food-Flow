@@ -37,8 +37,8 @@
         <h1 class="banner-heading mb-3 mr-3">Get Delicious Food Anytime</h1>
         <div class="text-right mr-5">
           <p class="banner-caption mb-4">Eat Smart & Healthy</p>
-        <button class="custom-button" onclick="goToSection('exploreMenuSection')">View Menu</button>
-        <button class="custom-outline-button" onclick="goToSection ('deliveryPaymentSection')">Order Now</button>
+        <button class="custom-button">View Menu</button>
+        <button class="custom-outline-button">Order Now</button>
         </div>
       </div>
     </div>
@@ -271,7 +271,31 @@
               the true and unadulterated gifts from mother nature. with the true
               and unadulterated gifts from mother nature.
             </p>
-            <button class="custom-button">Watch Video</button>
+            <button class="custom-button"  data-toggle="modal" data-target="#exampleModal2" >Watch Video</button>
+            <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog mt-5">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title thanking-customers-section-modal-title" id="exampleModalLabel">
+                        Video
+                      </h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="embed-responsive embed-responsive-4by3">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/MW5v5ojSLwU"></iframe>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
           </div>
         </div>
       </div>
@@ -321,6 +345,7 @@
         </div>
       </div>
     </div>
+
     <div class="thanking-customers-section pt-5 pb-5">
       <div class="container">
         <div class="row">
@@ -415,6 +440,5 @@
         </div>
       </div>
     </div>
-    <script src="script.js"></script>
   </body>
 </html>
