@@ -194,43 +194,101 @@
     color: #d0b200;
     font-weight: 800;
   }
-  .follow-us-section {
-    background-color: white;
-  }
-  .follow-us-section-heading {
-    text-align: center;
-    color: #183b56;
-    font-family: "Roboto";
-    font-size: 28px;
-    font-weight: 700;
-  }
+
   .follow-us-icon-container {
-    background-color: #faf7e8;
-    width: 80px;
-    height: 80px;
-    border-radius: 40px;
+    background-color:white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
     margin: 15px;
-    padding-top: 22px;
-    padding-bottom: 14px;
-    padding-right: 16px;
-    padding-left: 22px;
   }
+
   .icon {
-    color: #d0b200;
-    font-size: 35px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
   }
+  
+
   .footer-section {
-    background-color: #0d2436;
+    background-color:black;
+    height: 450px;
+    justify-content: center;
   }
-  .footer-section-mail-id {
-    color: #959ead;
-    font-family: "Roboto";
-    font-weight: bold;
-    font-size: 16px;
+  
+
+
+
+  .flex-fill1{
+    height: 150px;
+    width: 500px;
+    margin: 15px;
+    border-radius: 5px;
+    justify-content:center;
+    text-align:center;
+
+  }
+  .flex-fill1 h5{
+    color: white;
+  }
+
+  .flex-fill2{
+     height: 350px;
+     width: 800px;
+     border-radius: 5px;
+     display: flex;
+     justify-content: space-evenly;
+     padding-top: 15px;
+}
+
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: grey;
+}
+ul p{
+  color: white;
+}
+ul{
     margin-top: 20px;
-  }
-  .footer-section-address {
-    color: #959ead;
-    font-family: "Roboto";
-    font-size: 14px;
-  }
+}
+ul a:hover {
+  color: white !important;
+  cursor: pointer;
+ 
+}
+
+.footer-panel{
+    background-color: black;
+    color: white;
+    height: 50px;
+    font-size: 0.75rem;
+    text-align: center;
+}
+
+.pages{
+    padding-top: 5px;
+}
+.copyrights{
+    padding-top: 5px;
+}
+
+.align{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.hr{
+  border: 0.1px solid white;
+  width: 80%;
+}
+
+.align1{
+  display: flex;
+}
+
+
+ 
